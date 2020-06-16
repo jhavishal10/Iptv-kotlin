@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        android:visible="true"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/moreInfo"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/browse"
+        android:title="@string/browse" />
+    <item
+        android:id="@+id/logout"
+        android:menuCategory="alternative"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NetupTv</string>
+    <string name="netuptv_for_online_streaming">NetupTv Live Streaming App</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">Required</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+
+    <string name="browse">Browse</string>
+    <string name="logout">Logout</string>
+    <string name="iptv">IPTV</string>
+
+    <string name="info">Info</string>
+
+</resources>
